@@ -11,6 +11,22 @@ RUN apt-get update \
     build-essential \
     zip \
     unzip \
+    chromium \
+    libnss3 \
+    libnspr4 \
+    libatk1.0-0 \
+    libatk-bridge2.0-0 \
+    libcups2 \
+    libxkbcommon0 \
+    libasound2 \
+    libgbm1 \
+    libxcomposite1 \
+    libxdamage1 \
+    libxfixes3 \
+    libxrandr2 \
+    libatspi2.0-0 \
+    libdbus-1-3 \
+    fonts-liberation \
   && rm -rf /var/lib/apt/lists/*
 
 RUN npm install -g openclaw@2026.5.7
