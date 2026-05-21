@@ -29,7 +29,7 @@ RUN apt-get update \
     fonts-liberation \
   && rm -rf /var/lib/apt/lists/*
 
-RUN npm install -g openclaw@2026.5.7
+RUN npm install -g openclaw@2026.5.18
 RUN npm install -g clawhub@latest
 
 WORKDIR /app
